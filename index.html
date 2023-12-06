@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <h1>Calculator</h1>
+        <div id="display">
+            <div id="input"></div>
+            <div id="result">0</div>
+        </div>
+        <div id="clearButton">
+            <button>Clear</button>
+        </div>
+        <div id="pad">
+            <div class="row">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="operationButton">/</button>
+            </div>
+            <div class="row">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="operationButton">*</button>
+            </div>
+            <div class="row">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="operationButton">-</button>
+            </div>
+            <div class="row">
+                <button id="pointButton" class="operationButton">.</button>
+                <button>0</button>
+                <button id="equal" class="operationButton">=</button>
+                <button class="operationButton">+</button>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>

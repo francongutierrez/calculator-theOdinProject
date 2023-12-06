@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#mainContainer {
+    background-color: rgb(97, 97, 97);
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+#mainContainer h1 {
+    color: rgb(46, 0, 0);
+    text-align: center;
+}
+
+#display {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 0.5em;
+    width: 21em;
+    text-align: right;
+}
+
+#display #result {
+    font-size: x-large;
+    padding: 0.5em 0 0.5em 0;
+}
+
+button {
+    border-radius: 0.5em;
+}
+
+#clearButton {
+    text-align: center;
+    margin: 1em 0 1em 0;
+}
+
+#clearButton button {
+    background-color: rgb(255, 113, 113);
+    padding: 1em;
+    width: 20em;
+    text-align: center;
+    font-size: large;
+    margin: 0;
+    border-radius: 0.5em;
+}
+
+#pad {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+}
+
+#pad .row button {
+    padding: 1em;
+    width: 5em;
+    font-size: large;
+}
+
+.operationButton {
+    background-color: rgb(194, 194, 255);
+}
